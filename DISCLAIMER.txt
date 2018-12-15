@@ -1,0 +1,28 @@
+Este proyecto es una pagina de venta de obras de arte famosas que han sido robadas.
+
+Cuenta con una pagina principal en el que hay una barra de busqueda, una lista con las obras
+y un pie de pagina.
+
+Cada link o foto abre la obra correspondiente en la cual hay una breve descripcion y un boton para comprarla
+el cual abre una ventana para ingresar el email.
+Luego regresa a la pagina de la obra.
+El en pie de pagina de la obra esta la opcion para volver a la pagina principal.
+
+En los archivos javascript de la carpeta del proyecto hay comentarios que explican la finalidad de algunas funciones y algunas dificultades que tuve...
+
+Con un poco de dedicacion y esfuerzo espero resolverlas con el transcurso del tiempo.
+
+La pagina principal (index.html) es levantada desde el archivo servidorExpress.js luego las siguientes paginas se abren.
+desde index.
+
+Para las vistas utilize css interno y externo, como para practicar las dos opciones, las cuales me resultan mas amigable que el inline.
+cabe destacar que el externo permite portabilidad y reutilizacion pero el interno se copia y pega XD
+
+Luego para la parte del servidor intente hacerlo solo en node sin express pero no me cargaba los archivos javascript en el navegador, 
+vi un modulo de npm que se llama html-parser pero me resulto muy complejo de implementar, asi que finalmente lo hice con express
+y fue mas sencillo.
+
+Intente implementar mongoDB para que guarde los emails ingresados en un documento, pero no logre traerlos desde el prompt de las vistas
+asi que descarte todo.
+
+NumaX 10.12.18

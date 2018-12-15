@@ -1,0 +1,239 @@
+body{
+  background-color: black;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#h4gioconda{
+  color:white;
+  text-align: center;
+}
+
+#h4gioconda {
+    color: white;
+    text-align: center;
+}
+
+#h5gioconda {
+    color: white;
+    text-align: center;
+}
+
+#pDaVinci {
+  color: white;
+  text-align: center;
+  font-size: 20;
+}
+
+#footGioconda  {
+color: white;
+/*position: absolute;*/
+width: 100%;
+bottom: 0;
+text-align: center;
+font-size: 8;
+}
+
+#h4Guernica{
+  color: purple;
+  text-align: center;
+}
+
+#h5Guernica{
+  color: purple;
+  text-align: center;
+}
+
+#pPicasso {
+color: purple;
+text-align: center;
+font-size: 14;
+}
+
+#footGuernica{
+  color: purple;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 8;
+}
+
+#h4VanGogh{
+  color: black;
+  text-align: center;
+}
+
+#h5VanGogh{
+  color: black;
+  text-align: center;
+}
+
+#pVanGogh {
+  color:  black;
+  text-align: center;
+  font-size: 8;
+}
+
+#footVanGogh{
+  color:black;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 8;
+}
+
+#h4vuel{
+  color: black;
+  text-align: center;
+}
+
+#h5vuel{
+  color: black;
+  text-align: center;
+}
+
+#pXul {
+  color:  black;
+  text-align: center;
+  font-size: 8;
+}
+
+#footVuel{
+  color:black;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 8;
+}
+
+/* el fondo del modal */
+.modal{
+  display: none; /* oculto por defecto */
+  position: fixed; /* mantiene posicion */
+  z-index: 1; /* se posiciona arriba */
+  left: 0;
+  top: 0;
+  width: 100%; /* ancho */
+  height: 100%; /* alto */
+  overflow: auto; /* para escrollear */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); /* opacidad negra */
+}
+
+/* el contenido del modal */
+.modal-content-davinci {
+  margin: 15% auto; /* margenes automaticos */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* ancho, varia segun la pagina */
+}
+
+.modal-content-picasso {
+  margin: 15% auto; /* margenes automaticos */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* ancho, varia segun la pagina */
+}
+
+.modal-content-vangogh {
+  margin: 15% auto; /* margenes automaticos */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* ancho, varia segun la pagina */
+}
+
+.modal-content-xul {
+  margin: 15% auto; /* margenes automaticos */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* ancho, varia segun la pagina */
+}
+
+#modal-content-gioconda{
+  background-image:url("../Fotos/Leonardo_da_Vinci_-_Mona_Lisa.jpg");
+}
+
+#modal-content-guernica{
+  background-image:url("../Fotos/guernica-picasso-cke.jpg");
+}
+
+#modal-content-noche{
+  background-image: url("../Fotos/van_gogh_noche_estrellada.jpg");
+}
+
+#modal-content-vuel{
+  background-image: url("../Fotos/xul_solar_vuel_villa.jpg");
+}
+
+/* boton cerrar */
+.closeBtnDaVinci {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeBtnDaVinci:hover,
+.closeBtnDaVinci:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeBtnPicasso {
+  color: purple;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeBtnPicasso:hover,
+.closeBtnPicasso:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeBtnVanGogh {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeBtnVanGogh:hover,
+.closeBtnVanGogh:focus {
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeBtnXul {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeBtnXul:hover,
+.closeBtnXul:focus {
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+}

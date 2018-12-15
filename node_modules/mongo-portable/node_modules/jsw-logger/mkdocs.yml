@@ -1,0 +1,10 @@
+site_name: JSW Logger
+repo_url: https://github.com/EastolfiWebDev/JSW-Logger
+site_author: Eduardo Astolfi
+copyright: 2016 - Eduardo Astolfi
+
+docs_dir: api
+
+pages:
+    - 'Introduction': 'index.md'
+    - 'JSW Logger': 'JSW-Logger.md'
